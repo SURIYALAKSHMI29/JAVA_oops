@@ -10,7 +10,7 @@ int n = obj.nextInt();
 float Sum=0;
 for (float i=1;i<=n;i++)
 {
-     sum+= 1/1;
+     sum+= 1/i;
 }
 System.out.println("Harmonic series:"+sum);
 
