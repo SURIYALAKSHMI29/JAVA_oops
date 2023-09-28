@@ -15,7 +15,7 @@ public class calci {
             float a=Float.parseFloat(x);
             float b=Float.parseFloat(y);
             if(b==0)
-                throw new ArithmeticException("Divided by zero is not possible!");  
+                throw new DividedByZeroExceptionException("Divided by zero is not possible!");  
             if(!"+".equals(op) && !"-".equals(op) && !"*".equals(op) && !"/".equals(op) )
             {
                 throw new OperatorException("Invalid Operator sign");
@@ -43,15 +43,22 @@ public class calci {
         {
             System.err.println("Invalid inputs");
         }
-        catch(ArithmeticException e)
+        catch(DividedByZeroException e)
         {
-            System.err.println(e.getMessage());
+            System.out.println(e.getMessage());
         }
         catch(OperatorException e)
         {
             System.err.println(e.getMessage());
         }
     }
+}
+class DividedByZeroException extends Exception
+{
+    DividedByZeroException(String msg)
+    {  
+        super(msg);
+    }  
 }
 class OperatorException extends Exception
 {
