@@ -19,10 +19,10 @@ public class searchDemo {
         String ele = obj.next();
         func f = new func();
         f.search(str, ele);
-        Integer[] int_arr = new Integer[n];
         System.out.println("*****Integer Array*****");
         System.out.print("Enter No.of elements:");
         int n1 = obj.nextInt();
+        Integer[] int_arr = new Integer[n1];
         System.out.print("Enter the elements(Integer)...\n");
         for(int i=0;i<n1;i++)
         {
