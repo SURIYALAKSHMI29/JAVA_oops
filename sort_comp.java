@@ -5,7 +5,7 @@ public class student_dta implements Comparator
 {
     public static void main(String[] args) 
     {
-        int i,n=3;
+        int i,n=20;
         student s[] = new student[n];
         Scanner obj = new Scanner(System.in);
         ArrayList list = new ArrayList(Arrays.asList());
