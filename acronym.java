@@ -11,7 +11,7 @@ public class ThreeLetterAcronym
         String op="";
         for(int i=0; i<3; i++)
         {
-           if(str[].length()<3)
+           if(str.length<3)
            {
                
                break;
