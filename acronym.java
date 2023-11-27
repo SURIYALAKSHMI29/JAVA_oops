@@ -1,3 +1,7 @@
+/*
+Write a program that allows a user to enter three words, and display the appropriate three-letter acronym in all uppercase letters.
+If the user enters more than three words, ignore the extra words.
+*/
 //acronym
 import java.util.*;
 public class ThreeLetterAcronym
