@@ -22,12 +22,13 @@ Feel free to explore different branches to review exercises and examples covered
 
 ## Usage
 
-Clone this repository to explore the exercises and examples:
-git clone https://github.com/SURIYALAKSHMI29/JAVA_oops.git java-oops-exercises
-cd java-oops-exercises
+**Clone the repository:**
+
+   ```bash
+   git clone https://github.com/SURIYALAKSHMI29/Grocery-Store-Management-System.git
 
 ## Contributing
 If you're a contributor or student in the course, feel free to add your exercises or improvements by forking this repository and submitting a pull request. Let's build a collaborative learning resource together!
 
 ## License
-This repository is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
