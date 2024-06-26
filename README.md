@@ -26,6 +26,7 @@ Feel free to explore different branches to review exercises and examples covered
 
    ```bash
    git clone https://github.com/SURIYALAKSHMI29/Grocery-Store-Management-System.git
+   ```
 
 ## Contributing
 If you're a contributor or student in the course, feel free to add your exercises or improvements by forking this repository and submitting a pull request. Let's build a collaborative learning resource together!
